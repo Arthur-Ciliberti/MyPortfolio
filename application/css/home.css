@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteiner {
+    width: 80%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 20%;
+    height: 20%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1; /* Ocupa o espaço restante */
+}
+
+.nav ul {
+    list-style: none; /* Remover marcadores de lista */
+    display: flex;
+}
+
+.nav li {
+    margin: 0 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black; 
+}
